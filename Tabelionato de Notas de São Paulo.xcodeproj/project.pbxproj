@@ -17,7 +17,11 @@
 		A7C0675B17558A3900D63F2B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C0675A17558A3900D63F2B /* Default@2x.png */; };
 		A7C0675D17558A3900D63F2B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C0675C17558A3900D63F2B /* Default-568h@2x.png */; };
 		A7C0676017558A3900D63F2B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C0675E17558A3900D63F2B /* MainStoryboard.storyboard */; };
-		A7C0676317558A3900D63F2B /* TNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C0676217558A3900D63F2B /* TNViewController.m */; };
+		A7C0676B17558C3300D63F2B /* TNLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C0676A17558C3300D63F2B /* TNLibrary.m */; };
+		A7C0677017558EB100D63F2B /* TNInicialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C0676F17558EB100D63F2B /* TNInicialViewController.m */; };
+		A7C067781755A29C00D63F2B /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C067731755A29C00D63F2B /* BButton.m */; };
+		A7C067791755A29C00D63F2B /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C067751755A29C00D63F2B /* NSString+FontAwesome.m */; };
+		A7C0677A1755A29C00D63F2B /* UIColor+BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C067771755A29C00D63F2B /* UIColor+BButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +39,16 @@
 		A7C0675A17558A3900D63F2B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A7C0675C17558A3900D63F2B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A7C0675F17558A3900D63F2B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A7C0676117558A3900D63F2B /* TNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNViewController.h; sourceTree = "<group>"; };
-		A7C0676217558A3900D63F2B /* TNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNViewController.m; sourceTree = "<group>"; };
+		A7C0676917558C3300D63F2B /* TNLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNLibrary.h; sourceTree = "<group>"; };
+		A7C0676A17558C3300D63F2B /* TNLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNLibrary.m; sourceTree = "<group>"; };
+		A7C0676E17558EB100D63F2B /* TNInicialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNInicialViewController.h; sourceTree = "<group>"; };
+		A7C0676F17558EB100D63F2B /* TNInicialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNInicialViewController.m; sourceTree = "<group>"; };
+		A7C067721755A29C00D63F2B /* BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BButton.h; sourceTree = "<group>"; };
+		A7C067731755A29C00D63F2B /* BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BButton.m; sourceTree = "<group>"; };
+		A7C067741755A29C00D63F2B /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		A7C067751755A29C00D63F2B /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		A7C067761755A29C00D63F2B /* UIColor+BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BButton.h"; sourceTree = "<group>"; };
+		A7C067771755A29C00D63F2B /* UIColor+BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +98,8 @@
 				A7C0675517558A3900D63F2B /* TNAppDelegate.h */,
 				A7C0675617558A3900D63F2B /* TNAppDelegate.m */,
 				A7C0675E17558A3900D63F2B /* MainStoryboard.storyboard */,
-				A7C0676117558A3900D63F2B /* TNViewController.h */,
-				A7C0676217558A3900D63F2B /* TNViewController.m */,
+				A7C0676D17558D4E00D63F2B /* Controllers */,
+				A7C0676C17558D3A00D63F2B /* Classes */,
 				A7C0674D17558A3900D63F2B /* Supporting Files */,
 			);
 			path = "Tabelionato de Notas de São Paulo";
@@ -105,6 +117,38 @@
 				A7C0675C17558A3900D63F2B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7C0676C17558D3A00D63F2B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7C067711755A29200D63F2B /* BButtons */,
+				A7C0676917558C3300D63F2B /* TNLibrary.h */,
+				A7C0676A17558C3300D63F2B /* TNLibrary.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A7C0676D17558D4E00D63F2B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7C0676E17558EB100D63F2B /* TNInicialViewController.h */,
+				A7C0676F17558EB100D63F2B /* TNInicialViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A7C067711755A29200D63F2B /* BButtons */ = {
+			isa = PBXGroup;
+			children = (
+				A7C067721755A29C00D63F2B /* BButton.h */,
+				A7C067731755A29C00D63F2B /* BButton.m */,
+				A7C067741755A29C00D63F2B /* NSString+FontAwesome.h */,
+				A7C067751755A29C00D63F2B /* NSString+FontAwesome.m */,
+				A7C067761755A29C00D63F2B /* UIColor+BButton.h */,
+				A7C067771755A29C00D63F2B /* UIColor+BButton.m */,
+			);
+			name = BButtons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +220,11 @@
 			files = (
 				A7C0675317558A3900D63F2B /* main.m in Sources */,
 				A7C0675717558A3900D63F2B /* TNAppDelegate.m in Sources */,
-				A7C0676317558A3900D63F2B /* TNViewController.m in Sources */,
+				A7C0676B17558C3300D63F2B /* TNLibrary.m in Sources */,
+				A7C0677017558EB100D63F2B /* TNInicialViewController.m in Sources */,
+				A7C067781755A29C00D63F2B /* BButton.m in Sources */,
+				A7C067791755A29C00D63F2B /* NSString+FontAwesome.m in Sources */,
+				A7C0677A1755A29C00D63F2B /* UIColor+BButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +312,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tabelionato de Notas de São Paulo/Tabelionato de Notas de São Paulo-Prefix.pch";
 				INFOPLIST_FILE = "Tabelionato de Notas de São Paulo/Tabelionato de Notas de São Paulo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +324,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tabelionato de Notas de São Paulo/Tabelionato de Notas de São Paulo-Prefix.pch";
 				INFOPLIST_FILE = "Tabelionato de Notas de São Paulo/Tabelionato de Notas de São Paulo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

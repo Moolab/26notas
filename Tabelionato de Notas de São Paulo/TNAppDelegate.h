@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TNLibrary.h"
 
 @interface TNAppDelegate : UIResponder <UIApplicationDelegate>
 
