@@ -11,6 +11,7 @@
 @interface TNLibrary : NSObject
 
 + (void)appearanceCustom;
++ (UIView *)getViewWithTitle:(NSString *)title withSize:(float)size;
 + (NSString*)date:(NSDate*)date toFormat:(NSString*)_format;
 + (void)sortMutableArray:(NSMutableArray * __strong *)array withAttribute:(NSString*)attr andAscending:(BOOL)ascending;
 @end

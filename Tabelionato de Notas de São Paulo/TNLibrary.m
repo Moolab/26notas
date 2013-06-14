@@ -20,6 +20,31 @@
     
     [[UINavigationBar appearance] setTintColor:navigationColor];
     [[UIBarButtonItem appearance] setTintColor:navigationColor];
+    
+    
+    /*[[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                          [UIColor whiteColor],
+                                                          UITextAttributeTextColor,
+                                                          [UIFont systemFontOfSize:10.0f],
+                                                          UITextAttributeFont, nil] forState:UIControlStateNormal];*/
+}
+
+// ================================================================================
+// Método para customizar o título das controllers
+// ================================================================================
++ (UIView *)getViewWithTitle:(NSString *)title withSize:(float)size
+{
+    UILabel * label = [UILabel new];
+    [label setFrame:CGRectMake(0, 0, 320, 44)];
+    [label setText:title];
+    [label setFont:[UIFont boldSystemFontOfSize:size]];
+    [label setTextAlignment:NSTextAlignmentCenter];
+    [label setTextColor:[UIColor whiteColor]];
+    [label setShadowColor:[UIColor blackColor]];
+    [label setShadowOffset:CGSizeMake(0, -0.5)];
+    [label setBackgroundColor:[UIColor clearColor]];
+    
+    return label;
 }
 
 // ================================================================================

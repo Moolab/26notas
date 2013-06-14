@@ -29,7 +29,7 @@
 	// Do any additional setup after loading the view.
     
     //Definindo título da aplicação
-    self.title = @"26º Tabelionato de Notas SP";
+    self.title = @"Escritura com valor declarado";
     self.navigationItem.title = self.title;
     
     //Ajustando tamanho da tabela
@@ -39,6 +39,7 @@
     [self.btnCalcular setType:BButtonTypePrimary];
     [self.btnLimpar setType:BButtonTypeDefault];
     
+    //Ajustando tamanho do header da tabela para não colar as células no topo
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 12)];
     [self.tabela setTableHeaderView:view];
 }
